@@ -12,14 +12,16 @@ TEST(IndependentMethod, ResetsToZero) {
 
 	i = 12;
 	independentMethod(i);
+//      EXPECT_EQ(1,i);
 	EXPECT_EQ(0,i);
 }
-
+/*
 TEST(IndependentMethod, ResetsToZero2) {
 	int i = 0;
 	independentMethod(i);
 	EXPECT_EQ(0, i);
 }
+*/
 
 // The fixture for testing class Project1. From google test primer.
 class Project1Test : public ::testing::Test {

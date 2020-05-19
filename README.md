@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/gujans/travis-gtest-cmake-example.svg?branch=master)](https://travis-ci.org/gujans/travis-gtest-cmake-example) [![codecov](https://codecov.io/gh/gujans/travis-gtest-cmake-example/branch/master/graph/badge.svg)](https://codecov.io/gh/gujans/travis-gtest-cmake-example)
+[![Build Status](https://travis-ci.org/ekuijpers/travis-example.svg?branch=master)](https://travis-ci.org/ekuijpers/travis-example.svg) [![codecov](https://codecov.io/gh/ekuijpers/travis-example/branch/master/graph/badge.svg)](https://codecov.io/gh/ekuijpers/travis-example)
 
-
+This README is modified for educational purposes by E.A.Kuijpers. Changed the testcase and badges.
 
 # What is this?
 This is an example setup of Travis-CI with cmake and google test. I finally got all three working together nicely with the help of [dmonopoly's cmake and gtest example](https://github.com/dmonopoly/gtest-cmake-example). Hopefully it'll help someone get set up with cmake and google test on travis-ci.
