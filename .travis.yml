@@ -3,5 +3,7 @@ language: python
 python:
   - dev: "2.7.10"
 
-script:
-  - python -m unittest test_circles.py
+  jobs:
+    include:
+      - stage: test
+        script: pyhton -m unittest test_cirlces.py
