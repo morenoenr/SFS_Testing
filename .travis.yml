@@ -1,2 +1,2 @@
 language: python
-script: pyhton -m unittest test_cirlces.py
+script: ./test_cirlces.py
