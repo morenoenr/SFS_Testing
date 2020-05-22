@@ -1,9 +1,2 @@
 language: python
-
-python:
-  - dev: "2.7.10"
-
-  jobs:
-    include:
-      - stage: test
-        script: pyhton -m unittest test_cirlces.py
+script: pyhton -m unittest test_cirlces.py
